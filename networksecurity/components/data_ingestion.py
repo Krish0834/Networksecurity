@@ -66,16 +66,16 @@ class DataIngestion:
 
             logging.info("Exited split_data_as_train_test method of DataIngestion class.")
 
-            dir_path = os.path.dirname(self.data_ingestion_config.training_file_path)
+            dir_path = os.path.dirname(self.data_ingestion_config.train_file_path)
             os.makedirs(dir_path, exist_ok=True)
 
             logging.info("Exporting train and test file paths.")
 
             train_set.to_csv(
-                self.data_ingestion_config.training_file_path, index=False, header=True
+                self.data_ingestion_config.train_file_path, index=False, header=True
             )
             test_set.to_csv(
-                self.data_ingestion_config.testing_file_path, index=False, header=True
+                self.data_ingestion_config.test_file_path, index=False, header=True
             )  # Fixed incorrect test file path
 
             logging.info("Exported train and test file paths.")
@@ -90,8 +90,8 @@ class DataIngestion:
             self.split_data_as_train_test(dataframe)
 
             data_ingestion_artifact = DataIngestionArtifact(
-                trained_file_path=self.data_ingestion_config.training_file_path,
-                test_file_path=self.data_ingestion_config.testing_file_path
+                trained_file_path=self.data_ingestion_config.train_file_path,
+                test_file_path=self.data_ingestion_config.test_file_path
             )
             return data_ingestion_artifact
         except Exception as e:
