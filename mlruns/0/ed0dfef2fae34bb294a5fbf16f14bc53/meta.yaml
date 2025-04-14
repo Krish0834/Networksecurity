@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Network%20Security/mlruns/0/ed0dfef2fae34bb294a5fbf16f14bc53/artifacts
+end_time: 1744623616786
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: ed0dfef2fae34bb294a5fbf16f14bc53
+run_name: luxuriant-wasp-239
+run_uuid: ed0dfef2fae34bb294a5fbf16f14bc53
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744623605510
+status: 3
+tags: []
+user_id: krish

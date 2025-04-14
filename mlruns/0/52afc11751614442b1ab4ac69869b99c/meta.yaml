@@ -1,0 +1,15 @@
+artifact_uri: file:///C:/Network%20Security/mlruns/0/52afc11751614442b1ab4ac69869b99c/artifacts
+end_time: 1744622794470
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 52afc11751614442b1ab4ac69869b99c
+run_name: sassy-tern-783
+run_uuid: 52afc11751614442b1ab4ac69869b99c
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1744622783730
+status: 3
+tags: []
+user_id: krish
